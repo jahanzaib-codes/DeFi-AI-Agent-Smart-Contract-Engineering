@@ -1,0 +1,38 @@
+# Foundry Artifacts & Cache
+out/
+cache/
+broadcast/
+
+# Hardhat & Node.js Artifacts
+node_modules/
+artifacts/
+typechain/
+typechain-types/
+
+# Rust Artifacts
+target/
+**/*.rs.bk
+
+# Sensitive Keys & Environment Variables
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Test Artifacts & Strict Policy
+tests/
+test/
+.pytest_cache/
+.coverage
+coverage/
+lcov.info
+
+# IDEs & System Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
